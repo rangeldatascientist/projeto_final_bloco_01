@@ -10,17 +10,17 @@ public class Menu {
         int opcao = 0;
         
         while (true) {
-        	System.out.println("**********************************");
-        	System.out.println("                                  ");
-        	System.out.println("         Rangel Livraria          ");
-        	System.out.println("                                  ");
-        	System.out.println("**********************************");
-            System.out.println("       1. Cadastrar livro         ");
-            System.out.println("       2. Listar livros           ");
-            System.out.println("       3. Atualizar livro         ");
-            System.out.println("       4. Excluir livro           ");
-            System.out.println("       5. Sair                    ");
-            System.out.println("       6.Escolha uma opção:       ");
+        		System.out.println("**********************************");
+        		System.out.println("                                  ");
+        		System.out.println("         Rangel Livraria          ");
+        		System.out.println("                                  ");
+        		System.out.println("**********************************");
+        		System.out.println("       1. Cadastrar livro         ");
+        		System.out.println("       2. Listar livros           ");
+        		System.out.println("       3. Atualizar livro         ");
+        		System.out.println("       4. Excluir livro           ");
+        		System.out.println("       5. Sair                    ");
+        		System.out.println("       6.Escolha uma opção:       ");
             opcao = leia.nextInt();   // senão fechar da loop infinito        
             
             if (opcao == 5) {
