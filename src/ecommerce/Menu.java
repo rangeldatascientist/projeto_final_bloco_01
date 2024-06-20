@@ -1,4 +1,4 @@
-package primeiraetapa;
+package ecommerce;
 
 import java.util.Scanner;
 
@@ -20,11 +20,11 @@ public class Menu {
         		System.out.println("       3. Atualizar livro         ");
         		System.out.println("       4. Excluir livro           ");
         		System.out.println("       5. Sair                    ");
-        		System.out.println("       6.Escolha uma opção:       ");
-            opcao = leia.nextInt();   // senão fechar da loop infinito        
+        		System.out.println("       6. Escolha uma opção:       ");
+        		opcao = leia.nextInt();   // senão fechar da loop infinito        
             
             if (opcao == 5) {
-				System.out.println("\nRangel Livraria - Desperte seus conhecimento, leia um livro!");
+				System.out.println("\nRangel Livraria - Desperte seus conhecimentos, leia um livro!");
 				leia.close();
 				System.exit(0);
 			}
